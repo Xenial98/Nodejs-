@@ -8,7 +8,7 @@ function read(path)
         }
         else    {
             for(let element of data){
-                let c = './File/${element}'
+                let c = `./File/${element}`
                 console.log(c);
                 readFile(c);
             }
